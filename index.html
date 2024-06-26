@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- stylesheet link -->
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home">
+        <h1>Greetings!</h1>
+        <img src="IMG_5555.jpg" alt="LED light photo with Alani sitting down looking over shoulder" style="width: 200px;">
+    </div>
+
+    <!-- About Me Section -->
+    <div id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Peace y'all. My name is Alani and I am a Black-Indigenous, Southern creative with a special love for literature.
+I am dedicated to creating beautiful digital spaces for creatives and collectives doing meaningful work in the world.
+When I'm not learning, I love to spend time with my family, try new foods and spend time with nature. Feel free to explore.
+        </p>
+    </div>
+
+    <!-- My Work Section -->
+    <div id="work" class="work">
+        <h2>My Work</h2>
+        <p>Check out some of my projects below:</p>
+        <div class="grid-container">
+            <!-- Placeholder projects -->
+            <div class="project-thumbnail">Project 1</div>
+            <div class="project-thumbnail">Project 2</div>
+            <div class="project-thumbnail">Project 3</div>
+            <div class="project-thumbnail">Project 4</div>
+        </div>
+        <p>Find me on:</p>
+        <ul>
+            <li><a href="https://github.com/heavensdev" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/alrouse" target="_blank">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Connect with me!</p>
+
+        <p>Let's brainstorm you vision today
+        <p> Email: <strong> dev.alechemi@gmail.com </strong></a></p>
+        <p>Phone: <strong>(123) 456-7890</strong></p
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body><footer style="background-color: #f1f1f1; padding: 10px 20px; text-align: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+    &copy; 2024 Dev Alchemi. All rights reserved.
+</footer>
+
+</html>

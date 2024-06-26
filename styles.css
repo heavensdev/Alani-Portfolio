@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0eaff;
+
+nav {
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+div {
+    padding: 2em;
+}
+
+.about, .work, .contact {
+    margin: 2em 0;
+    padding: 1em;
+    border: 1px solid #1E90FF; /* Royal blue */
+    border-radius: 8px;
+    background-color: #f0f8ff; /* Light background for readability */
+}
+
+/* Grid Container for Projects */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.project-thumbnail {
+    background-color: #d1e0ff; /* Light blue */
+    padding: 2em;
+    text-align: center;
+    border: 1px solid #1E90FF; /* Royal blue */
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #1E90FF; /* Royal blue */
+    border-radius: 4px;
+    background-color: #f0f8ff; /* Light background for readability */
+}
+
+form input[type="submit"] {
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6A5ACD; /
+}
+
